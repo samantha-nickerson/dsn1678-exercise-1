@@ -40,10 +40,13 @@ img {
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.3);
   margin-bottom: 10rem;
+  padding-bottom: 3rem;
+  overflow: hidden;
+
 }
 
 .image {
-  margin: 0 0 1.5rem;
+  margin: 0 0 2rem;
   padding: 0;
   position: relative;
 }
@@ -65,22 +68,44 @@ img {
 
 .title {
   margin-left: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .table {
-  padding: 0.5rem 1.5rem;
-  padding-right: 6rem;
+  padding: 0.5rem 1.5rem 6rem;
   text-align: left;
 }
 
+.col1 {
+  float:left;
+  width: 30%;
+}
+
+.col2 {
+  float: left;
+  width: 30%;
+  padding-left: 1rem;
+}
+
+.col3 {
+  float:right;
+  width: 30%;
+  padding-left: 1rem;
+}
+
+
 .head2{
   color: #999;
+  margin-top:0;
+  font-weight: normal;
+  font-size: 17px;
+  text-transform: uppercase;
 }
 
 .description{
   margin:0;
   color: #333;
+  font-size: 20px;
 }
 
 .border{
